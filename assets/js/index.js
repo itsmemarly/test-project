@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         navbar.classList.toggle('active');
         menu.classList.toggle('fa-times');
     }
-    
+
 
     window.onscroll = () => {
         navbar.classList.remove('active');
